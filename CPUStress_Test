@@ -1,0 +1,3 @@
+Invoke-WebRequest -Uri http://download.sysinternals.com/files/CPUSTRES.zip -UseBasicParsing -Outfile CPUSTRES.zip
+Expand-Archive CPUSTRES.ZIP
+.\CPUSTRES\CPUSTRES.exe
