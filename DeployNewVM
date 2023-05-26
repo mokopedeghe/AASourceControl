@@ -1,0 +1,2 @@
+$location = "eastus"
+New-AzVM -ResourceGroupName ContosoIntegrationRG -Name IntegrationVM -Location $location -PublicIpAddressName IntegrationVM
