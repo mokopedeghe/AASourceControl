@@ -1,0 +1,2 @@
+az provider register -n Microsoft.Insights
+az provider register -n Microsoft.AlertsManagement
